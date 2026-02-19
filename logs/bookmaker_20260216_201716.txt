@@ -1,0 +1,6 @@
+2026-02-16 20:17:16,743 | INFO | Logging started → c:\Code\Fudbal_Modeli\logs\bookmaker_20260216_201716.txt
+2026-02-16 20:17:16,793 | INFO | Trening: 980 utakmica (do GW 22)
+2026-02-16 20:17:17,829 | INFO | μ league (trenutni prosek) = 9.805
+2026-02-16 20:17:17,843 | INFO | [OK] teams table: c:\Code\Fudbal_Modeli\data\model_teams_table_gw23.csv
+2026-02-16 20:17:17,843 | INFO | [OK] sanity table: c:\Code\Fudbal_Modeli\data\model_sanity_table_gw23.csv
+2026-02-16 20:17:18,932 | INFO | Spremljeno → c:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_gw23_margin0.055.csv (10 redova)

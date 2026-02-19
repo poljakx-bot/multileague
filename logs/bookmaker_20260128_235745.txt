@@ -1,0 +1,48 @@
+2026-01-28 23:57:45,516 | INFO | Logging started
+2026-01-28 23:57:45,517 | INFO | Log file: c:\Code\Fudbal_Modeli\logs\bookmaker_20260128_235745.txt
+2026-01-28 23:57:45,522 | INFO | [ACTIVE] england-premier-league-matches-2025-to-2026-stats.csv
+2026-01-28 23:57:45,627 | INFO | [TRAIN] utakmica: 990 | fajlova: 3
+2026-01-28 23:57:45,628 | INFO | [WEIGHTS] {'2023-to-2024': 0.4, '2024-to-2025': 0.7, '2025-to-2026': 1.0}
+2026-01-28 23:57:45,628 | INFO | [REG] L2_BASE=0.1500 | L2_HOMEADV=0.0200 | alpha=[0.05, 0.18]
+2026-01-28 23:57:45,629 | INFO | [LOW SAMPLE] threshold=50.0 | uncertainty_boost=0.40
+2026-01-28 23:57:45,629 | INFO | [BOOKMAKER] margin=0.0800
+2026-01-28 23:57:46,538 | INFO | [PL MODEL] alpha=0.0735 | beta0=1.4988 | home_adv=0.1555 | mu_pl_league_match=8.953
+2026-01-28 23:57:46,926 | INFO | [CHAMP] file=england-championship-matches-2024-to-2025-stats.csv | mu_ch_league_match=10.093 | champ_model_ok=True
+2026-01-28 23:57:46,926 | INFO | [PROMOTED CHECK] Burnley        in PL=True | champ_att=True | champ_def=True | matches_w=38.20 | w=0.440
+2026-01-28 23:57:46,927 | INFO | [PROMOTED CHECK] Leeds United   in PL=True | champ_att=True | champ_def=True | matches_w=23.00 | w=0.566
+2026-01-28 23:57:46,927 | INFO | [PROMOTED CHECK] Sunderland     in PL=True | champ_att=True | champ_def=True | matches_w=23.00 | w=0.566
+2026-01-28 23:57:46,927 | WARNING | [LOW SAMPLE TEAMS] 8
+2026-01-28 23:57:46,928 | WARNING |   - Luton Town             matches_w=15.20
+2026-01-28 23:57:46,928 | WARNING |   - Sheffield United       matches_w=15.20
+2026-01-28 23:57:46,928 | WARNING |   - Leeds United           matches_w=23.00
+2026-01-28 23:57:46,928 | WARNING |   - Sunderland             matches_w=23.00
+2026-01-28 23:57:46,929 | WARNING |   - Ipswich Town           matches_w=26.60
+2026-01-28 23:57:46,929 | WARNING |   - Leicester              matches_w=26.60
+2026-01-28 23:57:46,929 | WARNING |   - Southampton            matches_w=26.60
+2026-01-28 23:57:46,929 | WARNING |   - Burnley                matches_w=38.20
+2026-01-28 23:57:46,935 | INFO | [OK] team params: c:\Code\Fudbal_Modeli\data\team_negbin_params_corners.csv
+2026-01-28 23:57:46,958 | INFO | [OK] sanity check: c:\Code\Fudbal_Modeli\data\team_negbin_params_sanity_check.csv
+2026-01-28 23:57:46,970 | INFO | [NEXT GW] 24
+2026-01-28 23:57:47,637 | INFO | [OK] Spremljeno: c:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_1x2_gw24_margin_0.080.csv  (70 redova)
+2026-01-28 23:57:47,651 | INFO | Pregled rezultata (prvih 20 redova):
+ gameweek               home_team   away_team        market  line   p_over  bookmaker_odds_over  bookmaker_odds_under  mu_match  promoted_home_flag  promoted_away_flag  promoted_pair_flag
+       24  Brighton & Hove Albion     Everton corners_total   7.5 0.720830             1.284527              3.316710  9.824096                 0.0                 0.0                 0.0
+       24  Brighton & Hove Albion     Everton corners_total   8.5 0.612745             1.511111              2.390998  9.824096                 0.0                 0.0                 0.0
+       24  Brighton & Hove Albion     Everton corners_total   9.5 0.502565             1.842400              1.861401  9.824096                 0.0                 0.0                 0.0
+       24  Brighton & Hove Albion     Everton corners_total  10.5 0.396900             2.332895              1.535278  9.824096                 0.0                 0.0                 0.0
+       24  Brighton & Hove Albion     Everton corners_total  11.5 0.302400             3.061924              1.327302  9.824096                 0.0                 0.0                 0.0
+       24  Brighton & Hove Albion     Everton corners_total  12.5 0.221155             4.186774              1.188845  9.824096                 0.0                 0.0                 0.0
+       24  Brighton & Hove Albion     Everton           1X2   NaN      NaN                  NaN                   NaN       NaN                 NaN                 NaN                 NaN
+       24            Leeds United     Arsenal corners_total   7.5 0.466875             1.983242              1.736790  7.518386                 1.0                 0.0                 0.0
+       24            Leeds United     Arsenal corners_total   8.5 0.351320             2.635563              1.427400  7.518386                 1.0                 0.0                 0.0
+       24            Leeds United     Arsenal corners_total   9.5 0.252880             3.661523              1.239327  7.518386                 1.0                 0.0                 0.0
+       24            Leeds United     Arsenal corners_total  10.5 0.174055             5.319732              1.121050  7.518386                 1.0                 0.0                 0.0
+       24            Leeds United     Arsenal corners_total  11.5 0.115035             8.049080              1.046285  7.518386                 1.0                 0.0                 0.0
+       24            Leeds United     Arsenal corners_total  12.5 0.073385            12.617373              0.999256  7.518386                 1.0                 0.0                 0.0
+       24            Leeds United     Arsenal           1X2   NaN      NaN                  NaN                   NaN       NaN                 NaN                 NaN                 NaN
+       24 Wolverhampton Wanderers Bournemouth corners_total   7.5 0.766900             1.207362              3.972226 10.386100                 0.0                 0.0                 0.0
+       24 Wolverhampton Wanderers Bournemouth corners_total   8.5 0.669570             1.382867              2.802185 10.386100                 0.0                 0.0                 0.0
+       24 Wolverhampton Wanderers Bournemouth corners_total   9.5 0.564195             1.641145              2.124634 10.386100                 0.0                 0.0                 0.0
+       24 Wolverhampton Wanderers Bournemouth corners_total  10.5 0.458490             2.019512              1.709896 10.386100                 0.0                 0.0                 0.0
+       24 Wolverhampton Wanderers Bournemouth corners_total  11.5 0.359825             2.573267              1.446364 10.386100                 0.0                 0.0                 0.0
+       24 Wolverhampton Wanderers Bournemouth corners_total  12.5 0.272405             3.399078              1.272584 10.386100                 0.0                 0.0                 0.0

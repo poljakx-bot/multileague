@@ -1,0 +1,59 @@
+2026-02-16 21:11:01,365 | INFO | Logging started → C:\Code\Fudbal_Modeli\logs\bookmaker_20260216_211101.txt
+2026-02-16 21:13:10,944 | INFO | Logging started → C:\Code\Fudbal_Modeli\logs\bookmaker_20260216_211310.txt
+2026-02-16 21:18:22,582 | INFO | Logging started → C:\Code\Fudbal_Modeli\logs\bookmaker_20260216_211822.txt
+2026-02-16 21:24:11,340 | INFO | Logging started → C:\Code\Fudbal_Modeli\logs\bookmaker_20260216_212411.txt
+2026-02-16 21:30:48,727 | INFO | Logging started → C:\Code\Fudbal_Modeli\logs\bookmaker_20260216_213048.txt
+2026-02-16 21:34:53,525 | INFO | Logging started → C:\Code\Fudbal_Modeli\logs\bookmaker_20260216_213453.txt
+2026-02-16 22:30:30,014 | INFO | Logging started → C:\Code\Fudbal_Modeli\logs\bookmaker_20260216_223030.txt
+2026-02-16 22:34:22,769 | INFO | Logging started → C:\Code\Fudbal_Modeli\logs\bookmaker_20260216_223422.txt
+2026-02-16 22:36:29,122 | INFO | Logging started → C:\Code\Fudbal_Modeli\logs\bookmaker_20260216_223629.txt
+2026-02-16 22:36:51,905 | INFO | Trening: 1010 utakmica (do GW 25)
+2026-02-16 22:36:54,331 | INFO | μ league (trenutni prosek) = 9.840
+2026-02-16 22:36:54,358 | INFO | [OK] teams table: C:\Code\Fudbal_Modeli\data\model_teams_table_gw26.csv
+2026-02-16 22:36:54,360 | INFO | [OK] sanity table: C:\Code\Fudbal_Modeli\data\model_sanity_table_gw26.csv
+2026-02-16 22:37:38,675 | INFO | Trening: 1010 utakmica (do GW 25)
+2026-02-16 22:37:40,913 | INFO | μ league (trenutni prosek) = 9.840
+2026-02-16 22:37:40,929 | INFO | [OK] teams table: C:\Code\Fudbal_Modeli\data\model_teams_table_gw26.csv
+2026-02-16 22:37:40,930 | INFO | [OK] sanity table: C:\Code\Fudbal_Modeli\data\model_sanity_table_gw26.csv
+2026-02-16 22:37:43,539 | INFO | Spremljeno → C:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_gw26_margin0.080.csv (10 redova)
+2026-02-16 22:37:59,475 | INFO | Trening: 1010 utakmica (do GW 25)
+2026-02-16 22:38:01,746 | INFO | μ league (trenutni prosek) = 9.840
+2026-02-16 22:38:01,760 | INFO | [OK] teams table: C:\Code\Fudbal_Modeli\data\model_teams_table_gw26.csv
+2026-02-16 22:38:01,760 | INFO | [OK] sanity table: C:\Code\Fudbal_Modeli\data\model_sanity_table_gw26.csv
+2026-02-16 22:38:04,360 | INFO | Spremljeno → C:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_gw26_margin0.080.csv (10 redova)
+2026-02-16 22:42:32,524 | INFO | Logging started → C:\Code\Fudbal_Modeli\logs\bookmaker_20260216_224232.txt
+2026-02-16 23:02:17,334 | INFO | Logging started → C:\Code\Fudbal_Modeli\logs\bookmaker_20260216_230217.txt
+2026-02-16 23:04:23,434 | INFO | Logging started → C:\Code\Fudbal_Modeli\logs\bookmaker_20260216_230423.txt
+2026-02-16 23:04:54,604 | INFO | Trening: 1010 utakmica (do GW 25)
+2026-02-16 23:04:57,760 | INFO | μ league (trenutni prosek) = 9.840
+2026-02-16 23:04:57,784 | INFO | [OK] teams table: C:\Code\Fudbal_Modeli\data\model_teams_table_gw26.csv
+2026-02-16 23:04:57,785 | INFO | [OK] sanity table: C:\Code\Fudbal_Modeli\data\model_sanity_table_gw26.csv
+2026-02-16 23:05:01,204 | INFO | Spremljeno → C:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_gw26_margin0.080.csv (10 redova)
+2026-02-16 23:08:55,570 | INFO | Logging started → C:\Code\Fudbal_Modeli\logs\bookmaker_20260216_230855.txt
+2026-02-16 23:08:57,018 | INFO | Trening: 1010 utakmica (do GW 25)
+2026-02-16 23:09:00,658 | INFO | μ league (trenutni prosek) = 9.840
+2026-02-16 23:09:00,675 | INFO | [OK] teams table: C:\Code\Fudbal_Modeli\data\model_teams_table_gw26.csv
+2026-02-16 23:09:00,676 | INFO | [OK] sanity table: C:\Code\Fudbal_Modeli\data\model_sanity_table_gw26.csv
+2026-02-16 23:09:04,262 | INFO | Spremljeno → C:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_gw26_margin0.080.csv (10 redova)
+2026-02-16 23:17:34,746 | INFO | Logging started → C:\Code\Fudbal_Modeli\logs\bookmaker_20260216_231734.txt
+2026-02-16 23:17:53,908 | INFO | Trening: 1010 utakmica (do GW 25)
+2026-02-16 23:17:56,790 | INFO | μ league (trenutni prosek) = 9.840
+2026-02-16 23:17:56,821 | INFO | [OK] teams table: C:\Code\Fudbal_Modeli\data\model_teams_table_gw26.csv
+2026-02-16 23:17:56,823 | INFO | [OK] sanity table: C:\Code\Fudbal_Modeli\data\model_sanity_table_gw26.csv
+2026-02-16 23:17:59,980 | INFO | Spremljeno → C:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_gw26_margin0.055.csv (10 redova)
+2026-02-16 23:18:12,067 | INFO | Trening: 1010 utakmica (do GW 25)
+2026-02-16 23:18:14,874 | INFO | μ league (trenutni prosek) = 9.840
+2026-02-16 23:18:14,890 | INFO | [OK] teams table: C:\Code\Fudbal_Modeli\data\model_teams_table_gw26.csv
+2026-02-16 23:18:14,891 | INFO | [OK] sanity table: C:\Code\Fudbal_Modeli\data\model_sanity_table_gw26.csv
+2026-02-16 23:18:18,024 | INFO | Spremljeno → C:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_gw26_margin0.055.csv (10 redova)
+2026-02-16 23:22:08,849 | INFO | Logging started → C:\Code\Fudbal_Modeli\logs\bookmaker_20260216_232208.txt
+2026-02-16 23:22:19,627 | INFO | Trening: 1010 utakmica (do GW 25)
+2026-02-16 23:22:22,769 | INFO | μ league (trenutni prosek) = 9.840
+2026-02-16 23:22:22,786 | INFO | [OK] teams table: C:\Code\Fudbal_Modeli\data\model_teams_table_gw26.csv
+2026-02-16 23:22:22,787 | INFO | [OK] sanity table: C:\Code\Fudbal_Modeli\data\model_sanity_table_gw26.csv
+2026-02-16 23:22:26,271 | INFO | Spremljeno → C:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_gw26_margin0.055.csv (10 redova)
+2026-02-16 23:23:07,659 | INFO | Trening: 1010 utakmica (do GW 25)
+2026-02-16 23:23:10,263 | INFO | μ league (trenutni prosek) = 9.840
+2026-02-16 23:23:10,280 | INFO | [OK] teams table: C:\Code\Fudbal_Modeli\data\model_teams_table_gw26.csv
+2026-02-16 23:23:10,281 | INFO | [OK] sanity table: C:\Code\Fudbal_Modeli\data\model_sanity_table_gw26.csv
+2026-02-16 23:23:12,980 | INFO | Spremljeno → C:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_gw26_margin0.055.csv (10 redova)

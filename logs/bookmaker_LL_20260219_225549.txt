@@ -1,0 +1,11 @@
+2026-02-19 22:55:49,611 | INFO | Logging started → c:\Code\Fudbal_Modeli\logs\bookmaker_LL_20260219_225549.txt
+2026-02-19 22:55:49,612 | INFO | Applied preset LL: EMP_BIAS_K=30.0, EMP_BIAS_MAX_FACTOR=1.25, SOFT_ANCHOR_W_BASE=0.060, SOFT_ANCHOR_W_UPWARD=0.140, CHAOS_MAX=0.030
+2026-02-19 22:55:49,652 | INFO | [LL] Loaded 760 rows from 2 files
+2026-02-19 22:55:49,668 | INFO | [LL] Training on completed matches...
+2026-02-19 22:56:37,591 | WARNING | Optimization not fully successful: ABNORMAL: 
+2026-02-19 22:56:37,629 | INFO | Emp-bias: mean factor=0.976, min=0.833, max=1.203
+2026-02-19 22:56:37,632 | INFO | [LL] μ league (active played mean) = 9.653
+2026-02-19 22:56:37,634 | INFO | [LL] Last played GW = 24 → Pricing NEXT GW = 25
+2026-02-19 22:56:37,639 | INFO | [LL] [OK] teams table: c:\Code\Fudbal_Modeli\data\LL_model_teams_table_gw25.csv
+2026-02-19 22:56:37,639 | INFO | [LL] [OK] sanity table: c:\Code\Fudbal_Modeli\data\LL_model_sanity_table_gw25.csv
+2026-02-19 22:56:37,769 | INFO | [LL] Saved → c:\Code\Fudbal_Modeli\data\LL_bookmaker_odds_corners_gw25_margin0.080.csv (60 rows)

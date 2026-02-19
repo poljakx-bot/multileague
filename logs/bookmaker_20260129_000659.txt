@@ -1,0 +1,65 @@
+2026-01-29 00:06:59,358 | INFO | Logging started
+2026-01-29 00:06:59,358 | INFO | Log file: c:\Code\Fudbal_Modeli\logs\bookmaker_20260129_000659.txt
+2026-01-29 00:06:59,362 | INFO | [ACTIVE] england-premier-league-matches-2025-to-2026-stats.csv
+2026-01-29 00:06:59,450 | INFO | [TRAIN] utakmica: 990 | fajlova: 3
+2026-01-29 00:06:59,450 | INFO | [WEIGHTS] {'2023-to-2024': 0, '2024-to-2025': 0.6, '2025-to-2026': 1.0}
+2026-01-29 00:06:59,450 | INFO | [REG] L2_BASE=0.1500 | L2_HOMEADV=0.0200 | alpha=[0.05, 0.18]
+2026-01-29 00:06:59,451 | INFO | [LOW SAMPLE] threshold=50.0 | uncertainty_boost=0.40
+2026-01-29 00:06:59,451 | INFO | [BOOKMAKER] margin=0.0800
+2026-01-29 00:07:00,714 | INFO | [PL MODEL] alpha=0.0692 | beta0=1.4955 | home_adv=0.1195 | mu_pl_league_match=8.923
+2026-01-29 00:07:01,119 | INFO | [CHAMP] file=england-championship-matches-2024-to-2025-stats.csv | mu_ch_league_match=10.093 | champ_model_ok=True
+2026-01-29 00:07:01,119 | INFO | [PROMOTED CHECK] Burnley        in PL=True | champ_att=True | champ_def=True | matches_w=23.00 | w=0.566
+2026-01-29 00:07:01,120 | INFO | [PROMOTED CHECK] Leeds United   in PL=True | champ_att=True | champ_def=True | matches_w=23.00 | w=0.566
+2026-01-29 00:07:01,120 | INFO | [PROMOTED CHECK] Sunderland     in PL=True | champ_att=True | champ_def=True | matches_w=23.00 | w=0.566
+2026-01-29 00:07:01,120 | WARNING | [LOW SAMPLE TEAMS] 25
+2026-01-29 00:07:01,121 | WARNING |   - Luton Town             matches_w=0.00
+2026-01-29 00:07:01,121 | WARNING |   - Sheffield United       matches_w=0.00
+2026-01-29 00:07:01,121 | WARNING |   - Ipswich Town           matches_w=22.80
+2026-01-29 00:07:01,122 | WARNING |   - Leicester              matches_w=22.80
+2026-01-29 00:07:01,122 | WARNING |   - Southampton            matches_w=22.80
+2026-01-29 00:07:01,122 | WARNING |   - Burnley                matches_w=23.00
+2026-01-29 00:07:01,123 | WARNING |   - Leeds United           matches_w=23.00
+2026-01-29 00:07:01,123 | WARNING |   - Sunderland             matches_w=23.00
+2026-01-29 00:07:01,123 | WARNING |   - Arsenal                matches_w=45.80
+2026-01-29 00:07:01,123 | WARNING |   - Aston Villa            matches_w=45.80
+2026-01-29 00:07:01,124 | WARNING |   - Bournemouth            matches_w=45.80
+2026-01-29 00:07:01,124 | WARNING |   - Brentford              matches_w=45.80
+2026-01-29 00:07:01,124 | WARNING |   - Brighton & Hove Albion matches_w=45.80
+2026-01-29 00:07:01,125 | WARNING |   - Chelsea                matches_w=45.80
+2026-01-29 00:07:01,125 | WARNING |   - Crystal Palace         matches_w=45.80
+2026-01-29 00:07:01,125 | WARNING |   - Everton                matches_w=45.80
+2026-01-29 00:07:01,126 | WARNING |   - Fulham                 matches_w=45.80
+2026-01-29 00:07:01,126 | WARNING |   - Liverpool              matches_w=45.80
+2026-01-29 00:07:01,126 | WARNING |   - Manchester City        matches_w=45.80
+2026-01-29 00:07:01,127 | WARNING |   - Manchester United      matches_w=45.80
+2026-01-29 00:07:01,127 | WARNING |   - Newcastle              matches_w=45.80
+2026-01-29 00:07:01,127 | WARNING |   - Nottingham Forest      matches_w=45.80
+2026-01-29 00:07:01,127 | WARNING |   - Tottenham              matches_w=45.80
+2026-01-29 00:07:01,128 | WARNING |   - West Ham United        matches_w=45.80
+2026-01-29 00:07:01,128 | WARNING |   - Wolverhampton Wanderers matches_w=45.80
+2026-01-29 00:07:01,137 | INFO | [OK] team params: c:\Code\Fudbal_Modeli\data\team_negbin_params_corners.csv
+2026-01-29 00:07:01,167 | INFO | [OK] sanity check: c:\Code\Fudbal_Modeli\data\team_negbin_params_sanity_check.csv
+2026-01-29 00:07:01,181 | INFO | [NEXT GW] 24
+2026-01-29 00:07:01,803 | INFO | [OK] Spremljeno: c:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_1x2_gw24_margin_0.080.csv  (70 redova)
+2026-01-29 00:07:01,815 | INFO | Pregled rezultata (prvih 20 redova):
+ gameweek               home_team   away_team        market  line   p_over  bookmaker_odds_over  bookmaker_odds_under  mu_match  promoted_home_flag  promoted_away_flag  promoted_pair_flag
+       24  Brighton & Hove Albion     Everton corners_total   7.5 0.690365             1.341212              2.990379  9.600858                 0.0                 0.0                 0.0
+       24  Brighton & Hove Albion     Everton corners_total   8.5 0.583070             1.588018              2.220819  9.600858                 0.0                 0.0                 0.0
+       24  Brighton & Hove Albion     Everton corners_total   9.5 0.475405             1.947657              1.765030  9.600858                 0.0                 0.0                 0.0
+       24  Brighton & Hove Albion     Everton corners_total  10.5 0.374870             2.469992              1.481173  9.600858                 0.0                 0.0                 0.0
+       24  Brighton & Hove Albion     Everton corners_total  11.5 0.285065             3.248122              1.295119  9.600858                 0.0                 0.0                 0.0
+       24  Brighton & Hove Albion     Everton corners_total  12.5 0.209290             4.424129              1.171006  9.600858                 0.0                 0.0                 0.0
+       24  Brighton & Hove Albion     Everton           1X2   NaN      NaN                  NaN                   NaN       NaN                 NaN                 NaN                 NaN
+       24            Leeds United     Arsenal corners_total   7.5 0.473350             1.956113              1.758143  7.575440                 1.0                 0.0                 0.0
+       24            Leeds United     Arsenal corners_total   8.5 0.356745             2.595484              1.439438  7.575440                 1.0                 0.0                 0.0
+       24            Leeds United     Arsenal corners_total   9.5 0.255840             3.619160              1.244257  7.575440                 1.0                 0.0                 0.0
+       24            Leeds United     Arsenal corners_total  10.5 0.176600             5.243069              1.124515  7.575440                 1.0                 0.0                 0.0
+       24            Leeds United     Arsenal corners_total  11.5 0.117140             7.904439              1.048780  7.575440                 1.0                 0.0                 0.0
+       24            Leeds United     Arsenal corners_total  12.5 0.074865            12.367941              1.000855  7.575440                 1.0                 0.0                 0.0
+       24            Leeds United     Arsenal           1X2   NaN      NaN                  NaN                   NaN       NaN                 NaN                 NaN                 NaN
+       24 Wolverhampton Wanderers Bournemouth corners_total   7.5 0.750260             1.234140              3.707560 10.329128                 0.0                 0.0                 0.0
+       24 Wolverhampton Wanderers Bournemouth corners_total   8.5 0.653985             1.415821              2.675970 10.329128                 0.0                 0.0                 0.0
+       24 Wolverhampton Wanderers Bournemouth corners_total   9.5 0.551515             1.678877              2.064564 10.329128                 0.0                 0.0                 0.0
+       24 Wolverhampton Wanderers Bournemouth corners_total  10.5 0.449865             2.058231              1.683089 10.329128                 0.0                 0.0                 0.0
+       24 Wolverhampton Wanderers Bournemouth corners_total  11.5 0.356070             2.600404              1.437929 10.329128                 0.0                 0.0                 0.0
+       24 Wolverhampton Wanderers Bournemouth corners_total  12.5 0.273380             3.386956              1.274292 10.329128                 0.0                 0.0                 0.0

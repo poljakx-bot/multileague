@@ -1,0 +1,3 @@
+2026-02-15 19:07:05,477 | INFO | Logging started → c:\Code\Fudbal_Modeli\logs\bookmaker_20260215_190705.txt
+2026-02-15 19:07:05,540 | INFO | Trening: 1010 utakmica
+2026-02-15 19:07:07,533 | INFO | μ league = 9.840

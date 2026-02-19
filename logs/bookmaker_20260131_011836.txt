@@ -1,0 +1,3 @@
+2026-01-31 01:18:36,078 | INFO | Logging started
+2026-01-31 01:18:36,079 | INFO | Log file: c:\Code\Fudbal_Modeli\logs\bookmaker_20260131_011836.txt
+2026-01-31 01:18:36,082 | INFO | [ACTIVE] england-premier-league-matches-2025-to-2026-stats.csv

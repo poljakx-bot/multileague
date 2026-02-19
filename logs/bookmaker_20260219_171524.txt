@@ -1,0 +1,6 @@
+2026-02-19 17:15:24,394 | INFO | Logging started → c:\Code\Fudbal_Modeli\logs\bookmaker_20260219_171524.txt
+2026-02-19 17:15:24,458 | INFO | Trening: 840 utakmica (do GW 8)
+2026-02-19 17:15:25,271 | INFO | μ league (trenutni prosek) = 9.825
+2026-02-19 17:15:25,279 | INFO | [OK] teams table: c:\Code\Fudbal_Modeli\data\model_teams_table_gw9.csv
+2026-02-19 17:15:25,280 | INFO | [OK] sanity table: c:\Code\Fudbal_Modeli\data\model_sanity_table_gw9.csv
+2026-02-19 17:15:26,687 | INFO | Spremljeno → c:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_gw9_margin0.080.csv (60 redova)

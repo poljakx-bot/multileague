@@ -1,0 +1,10 @@
+2026-02-19 22:30:36,830 | INFO | Logging started → c:\Code\Fudbal_Modeli\logs\bookmaker_EPL_20260219_223036.txt
+2026-02-19 22:30:36,830 | INFO | Applied preset EPL: EMP_BIAS_K=25.0, EMP_BIAS_MAX_FACTOR=1.30, SOFT_ANCHOR_W_BASE=0.080, SOFT_ANCHOR_W_UPWARD=0.180, CHAOS_MAX=0.050
+2026-02-19 22:30:36,879 | INFO | [EPL] Loaded 1140 rows from 3 files
+2026-02-19 22:30:36,889 | INFO | [EPL] Training on completed matches...
+2026-02-19 22:36:21,962 | INFO | Emp-bias: mean factor=1.000, min=0.988, max=1.014
+2026-02-19 22:36:21,969 | INFO | [EPL] μ league (active played mean) = 9.846
+2026-02-19 22:36:21,970 | INFO | [EPL] [NEXT GW] 38
+2026-02-19 22:36:21,982 | INFO | [EPL] [OK] teams table: c:\Code\Fudbal_Modeli\data\EPL_model_teams_table_gw38.csv
+2026-02-19 22:36:21,982 | INFO | [EPL] [OK] sanity table: c:\Code\Fudbal_Modeli\data\EPL_model_sanity_table_gw38.csv
+2026-02-19 22:36:22,448 | INFO | [EPL] Saved → c:\Code\Fudbal_Modeli\data\EPL_bookmaker_odds_corners_gw38_margin0.080.csv (60 rows)

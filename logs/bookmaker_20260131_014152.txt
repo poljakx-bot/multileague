@@ -1,0 +1,42 @@
+2026-01-31 01:41:52,555 | INFO | Logging started
+2026-01-31 01:41:52,556 | INFO | Log file: c:\Code\Fudbal_Modeli\logs\bookmaker_20260131_014152.txt
+2026-01-31 01:41:52,561 | INFO | [ACTIVE] england-premier-league-matches-2025-to-2026-stats.csv
+2026-01-31 01:41:52,708 | INFO | [TRAIN] utakmica: 990 | fajlova: 3
+2026-01-31 01:41:52,709 | INFO | [WEIGHTS] {'2023-to-2024': 0.4, '2024-to-2025': 0.7, '2025-to-2026': 1.0}
+2026-01-31 01:41:52,709 | INFO | [REG] L2_BASE=0.1500 | L2_HOMEADV=0.0200 | alpha=[0.05, 0.18]
+2026-01-31 01:41:52,709 | INFO | [LOW SAMPLE] threshold=50.0 | uncertainty_boost=0.40
+2026-01-31 01:41:52,710 | INFO | [BOOKMAKER] margin=0.0500 | over_price_boost=0.0000
+2026-01-31 01:41:54,734 | INFO | [PL MODEL] alpha=0.0613 | beta0=1.5051 | home_adv=0.1243 | mu_pl_league_match=9.009
+2026-01-31 01:41:55,294 | INFO | [CHAMP] file=england-championship-matches-2024-to-2025-stats.csv | mu_ch_league_match=10.093 | champ_model_ok=True
+2026-01-31 01:41:55,294 | INFO | [PROMOTED CHECK] Burnley        in PL=True | champ_att=True | champ_def=True | matches_w=18.66 | w=0.617
+2026-01-31 01:41:55,294 | INFO | [PROMOTED CHECK] Leeds United   in PL=True | champ_att=True | champ_def=True | matches_w=17.05 | w=0.638
+2026-01-31 01:41:55,295 | INFO | [PROMOTED CHECK] Sunderland     in PL=True | champ_att=True | champ_def=True | matches_w=17.05 | w=0.638
+2026-01-31 01:41:55,295 | WARNING | [LOW SAMPLE TEAMS] 25
+2026-01-31 01:41:55,295 | WARNING |   - Luton Town             matches_w=1.61
+2026-01-31 01:41:55,296 | WARNING |   - Sheffield United       matches_w=1.61
+2026-01-31 01:41:55,296 | WARNING |   - Southampton            matches_w=8.30
+2026-01-31 01:41:55,296 | WARNING |   - Ipswich Town           matches_w=8.34
+2026-01-31 01:41:55,297 | WARNING |   - Leicester              matches_w=8.39
+2026-01-31 01:41:55,297 | WARNING |   - Leeds United           matches_w=17.05
+2026-01-31 01:41:55,297 | WARNING |   - Sunderland             matches_w=17.05
+2026-01-31 01:41:55,297 | WARNING |   - Burnley                matches_w=18.66
+2026-01-31 01:41:55,298 | WARNING |   - Brighton & Hove Albion matches_w=26.89
+2026-01-31 01:41:55,298 | WARNING |   - West Ham United        matches_w=26.91
+2026-01-31 01:41:55,298 | WARNING |   - Tottenham              matches_w=26.94
+2026-01-31 01:41:55,298 | WARNING |   - Arsenal                matches_w=26.95
+2026-01-31 01:41:55,299 | WARNING |   - Crystal Palace         matches_w=26.97
+2026-01-31 01:41:55,299 | WARNING |   - Manchester United      matches_w=26.97
+2026-01-31 01:41:55,299 | WARNING |   - Nottingham Forest      matches_w=26.98
+2026-01-31 01:41:55,299 | WARNING |   - Chelsea                matches_w=26.98
+2026-01-31 01:41:55,300 | WARNING |   - Everton                matches_w=26.98
+2026-01-31 01:41:55,300 | WARNING |   - Newcastle              matches_w=27.00
+2026-01-31 01:41:55,300 | WARNING |   - Liverpool              matches_w=27.01
+2026-01-31 01:41:55,300 | WARNING |   - Wolverhampton Wanderers matches_w=27.03
+2026-01-31 01:41:55,301 | WARNING |   - Aston Villa            matches_w=27.04
+2026-01-31 01:41:55,301 | WARNING |   - Bournemouth            matches_w=27.04
+2026-01-31 01:41:55,301 | WARNING |   - Manchester City        matches_w=27.09
+2026-01-31 01:41:55,301 | WARNING |   - Brentford              matches_w=27.09
+2026-01-31 01:41:55,302 | WARNING |   - Fulham                 matches_w=27.09
+2026-01-31 01:41:55,311 | INFO | [OK] team params: c:\Code\Fudbal_Modeli\data\team_negbin_params_corners.csv
+2026-01-31 01:41:55,350 | INFO | [OK] sanity check: c:\Code\Fudbal_Modeli\data\team_negbin_params_sanity_check.csv
+2026-01-31 01:41:55,366 | INFO | [NEXT GW] 24

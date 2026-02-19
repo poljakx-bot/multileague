@@ -1,0 +1,2 @@
+2026-02-15 19:04:56,942 | INFO | Logging started → c:\Code\Fudbal_Modeli\logs\bookmaker_20260215_190456.txt
+2026-02-15 19:04:57,018 | INFO | Trening: 1010 utakmica

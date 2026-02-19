@@ -1,0 +1,48 @@
+2026-01-18 20:56:59,167 | INFO | Logging started
+2026-01-18 20:56:59,167 | INFO | Log file: c:\Code\Fudbal_Modeli\logs\bookmaker_20260118_205659.txt
+2026-01-18 20:56:59,169 | INFO | [ACTIVE] england-premier-league-matches-2025-to-2026-stats.csv
+2026-01-18 20:56:59,211 | INFO | [TRAIN] utakmica: 950 | fajlova: 3
+2026-01-18 20:56:59,211 | INFO | [WEIGHTS] {'2023-to-2024': 0.4, '2024-to-2025': 0.7, '2025-to-2026': 1.0}
+2026-01-18 20:56:59,212 | INFO | [REG] L2_BASE=0.1500 | L2_HOMEADV=0.0200 | alpha=[0.05, 0.18]
+2026-01-18 20:56:59,212 | INFO | [LOW SAMPLE] threshold=50.0 | uncertainty_boost=0.40
+2026-01-18 20:56:59,216 | INFO | [BOOKMAKER] margin=0.0800
+2026-01-18 20:56:59,711 | INFO | [PL MODEL] alpha=0.0783 | beta0=1.4912 | home_adv=0.1682 | mu_pl_league_match=8.884
+2026-01-18 20:57:00,154 | INFO | [CHAMP] file=england-championship-matches-2024-to-2025-stats.csv | mu_ch_league_match=10.093 | champ_model_ok=True
+2026-01-18 20:57:00,155 | INFO | [PROMOTED CHECK] Burnley        in PL=True | champ_att=True | champ_def=True | matches_w=34.20 | w=0.467
+2026-01-18 20:57:00,156 | INFO | [PROMOTED CHECK] Leeds United   in PL=True | champ_att=True | champ_def=True | matches_w=19.00 | w=0.612
+2026-01-18 20:57:00,156 | INFO | [PROMOTED CHECK] Sunderland     in PL=True | champ_att=True | champ_def=True | matches_w=19.00 | w=0.612
+2026-01-18 20:57:00,157 | WARNING | [LOW SAMPLE TEAMS] 8
+2026-01-18 20:57:00,158 | WARNING |   - Luton Town             matches_w=15.20
+2026-01-18 20:57:00,158 | WARNING |   - Sheffield United       matches_w=15.20
+2026-01-18 20:57:00,158 | WARNING |   - Leeds United           matches_w=19.00
+2026-01-18 20:57:00,159 | WARNING |   - Sunderland             matches_w=19.00
+2026-01-18 20:57:00,159 | WARNING |   - Ipswich Town           matches_w=26.60
+2026-01-18 20:57:00,159 | WARNING |   - Leicester              matches_w=26.60
+2026-01-18 20:57:00,160 | WARNING |   - Southampton            matches_w=26.60
+2026-01-18 20:57:00,160 | WARNING |   - Burnley                matches_w=34.20
+2026-01-18 20:57:00,169 | INFO | [OK] team params: c:\Code\Fudbal_Modeli\data\team_negbin_params_corners.csv
+2026-01-18 20:57:00,195 | INFO | [OK] sanity check: c:\Code\Fudbal_Modeli\data\team_negbin_params_sanity_check.csv
+2026-01-18 20:57:00,210 | INFO | [NEXT GW] 20
+2026-01-18 20:57:00,953 | INFO | [OK] Spremljeno: c:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_1x2_gw20_margin_0.080.csv  (70 redova)
+2026-01-18 20:57:00,962 | INFO | Pregled rezultata (prvih 20 redova):
+ gameweek               home_team         away_team        market  line   p_over  bookmaker_odds_over  bookmaker_odds_under  mu_match  promoted_home_flag  promoted_away_flag  promoted_pair_flag
+       20             Aston Villa Nottingham Forest corners_total   7.5 0.781120             1.185382              4.230290 10.632567                 0.0                 0.0                 0.0
+       20             Aston Villa Nottingham Forest corners_total   8.5 0.686920             1.347939              2.957474 10.632567                 0.0                 0.0                 0.0
+       20             Aston Villa Nottingham Forest corners_total   9.5 0.584735             1.583497              2.229723 10.632567                 0.0                 0.0                 0.0
+       20             Aston Villa Nottingham Forest corners_total  10.5 0.482130             1.920490              1.787951 10.632567                 0.0                 0.0                 0.0
+       20             Aston Villa Nottingham Forest corners_total  11.5 0.383880             2.412019              1.502834 10.632567                 0.0                 0.0                 0.0
+       20             Aston Villa Nottingham Forest corners_total  12.5 0.296015             3.127970              1.315264 10.632567                 0.0                 0.0                 0.0
+       20             Aston Villa Nottingham Forest           1X2   NaN      NaN                  NaN                   NaN       NaN                 NaN                 NaN                 NaN
+       20  Brighton & Hove Albion           Burnley corners_total   7.5 0.711810             1.300805              3.212901  9.929767                 0.0                 1.0                 0.0
+       20  Brighton & Hove Albion           Burnley corners_total   8.5 0.609890             1.518185              2.373500  9.929767                 0.0                 1.0                 0.0
+       20  Brighton & Hove Albion           Burnley corners_total   9.5 0.506800             1.827005              1.877384  9.929767                 0.0                 1.0                 0.0
+       20  Brighton & Hove Albion           Burnley corners_total  10.5 0.406865             2.275757              1.561071  9.929767                 0.0                 1.0                 0.0
+       20  Brighton & Hove Albion           Burnley corners_total  11.5 0.317810             2.913457              1.357285  9.929767                 0.0                 1.0                 0.0
+       20  Brighton & Hove Albion           Burnley corners_total  12.5 0.240675             3.847204              1.219407  9.929767                 0.0                 1.0                 0.0
+       20  Brighton & Hove Albion           Burnley           1X2   NaN      NaN                  NaN                   NaN       NaN                 NaN                 NaN                 NaN
+       20 Wolverhampton Wanderers   West Ham United corners_total   7.5 0.669495             1.383021              2.801549  9.267121                 0.0                 0.0                 0.0
+       20 Wolverhampton Wanderers   West Ham United corners_total   8.5 0.555325             1.667359              2.082253  9.267121                 0.0                 0.0                 0.0
+       20 Wolverhampton Wanderers   West Ham United corners_total   9.5 0.442705             2.091519              1.661465  9.267121                 0.0                 0.0                 0.0
+       20 Wolverhampton Wanderers   West Ham United corners_total  10.5 0.338855             2.732514              1.400488  9.267121                 0.0                 0.0                 0.0
+       20 Wolverhampton Wanderers   West Ham United corners_total  11.5 0.249120             3.716787              1.233121  9.267121                 0.0                 0.0                 0.0
+       20 Wolverhampton Wanderers   West Ham United corners_total  12.5 0.176585             5.243514              1.124495  9.267121                 0.0                 0.0                 0.0

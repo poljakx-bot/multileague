@@ -1,0 +1,48 @@
+2026-01-18 20:27:28,538 | INFO | Logging started
+2026-01-18 20:27:28,539 | INFO | Log file: c:\Code\Fudbal_Modeli\logs\bookmaker_20260118_202728.txt
+2026-01-18 20:27:28,541 | INFO | [ACTIVE] england-premier-league-matches-2025-to-2026-stats.csv
+2026-01-18 20:27:28,583 | INFO | [TRAIN] utakmica: 979 | fajlova: 3
+2026-01-18 20:27:28,583 | INFO | [WEIGHTS] {'2023-to-2024': 0.4, '2024-to-2025': 0.7, '2025-to-2026': 1.0}
+2026-01-18 20:27:28,584 | INFO | [REG] L2_BASE=0.1500 | L2_HOMEADV=0.0200 | alpha=[0.05, 0.18]
+2026-01-18 20:27:28,584 | INFO | [LOW SAMPLE] threshold=50.0 | uncertainty_boost=0.40
+2026-01-18 20:27:28,585 | INFO | [BOOKMAKER] margin=0.0800
+2026-01-18 20:27:29,069 | INFO | [PL MODEL] alpha=0.0744 | beta0=1.4987 | home_adv=0.1574 | mu_pl_league_match=8.952
+2026-01-18 20:27:29,356 | INFO | [CHAMP] file=england-championship-matches-2024-to-2025-stats.csv | mu_ch_league_match=10.093 | champ_model_ok=True
+2026-01-18 20:27:29,356 | INFO | [PROMOTED CHECK] Burnley        in PL=True | champ_att=True | champ_def=True | matches_w=37.20 | w=0.446
+2026-01-18 20:27:29,356 | INFO | [PROMOTED CHECK] Leeds United   in PL=True | champ_att=True | champ_def=True | matches_w=22.00 | w=0.577
+2026-01-18 20:27:29,356 | INFO | [PROMOTED CHECK] Sunderland     in PL=True | champ_att=True | champ_def=True | matches_w=22.00 | w=0.577
+2026-01-18 20:27:29,357 | WARNING | [LOW SAMPLE TEAMS] 8
+2026-01-18 20:27:29,357 | WARNING |   - Luton Town             matches_w=15.20
+2026-01-18 20:27:29,357 | WARNING |   - Sheffield United       matches_w=15.20
+2026-01-18 20:27:29,358 | WARNING |   - Leeds United           matches_w=22.00
+2026-01-18 20:27:29,358 | WARNING |   - Sunderland             matches_w=22.00
+2026-01-18 20:27:29,358 | WARNING |   - Ipswich Town           matches_w=26.60
+2026-01-18 20:27:29,358 | WARNING |   - Leicester              matches_w=26.60
+2026-01-18 20:27:29,359 | WARNING |   - Southampton            matches_w=26.60
+2026-01-18 20:27:29,359 | WARNING |   - Burnley                matches_w=37.20
+2026-01-18 20:27:29,366 | INFO | [OK] team params: c:\Code\Fudbal_Modeli\data\team_negbin_params_corners.csv
+2026-01-18 20:27:29,400 | INFO | [OK] sanity check: c:\Code\Fudbal_Modeli\data\team_negbin_params_sanity_check.csv
+2026-01-18 20:27:29,410 | INFO | [NEXT GW] 23
+2026-01-18 20:27:30,025 | INFO | [OK] Spremljeno: c:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_1x2_gw23_margin_0.080.csv  (70 redova)
+2026-01-18 20:27:30,032 | INFO | Pregled rezultata (prvih 20 redova):
+ gameweek       home_team              away_team        market  line   p_over  bookmaker_odds_over  bookmaker_odds_under  mu_match  promoted_home_flag  promoted_away_flag  promoted_pair_flag
+       23 West Ham United             Sunderland corners_total   7.5 0.600210             1.542670              2.316031  8.674627                 0.0                 1.0                 0.0
+       23 West Ham United             Sunderland corners_total   8.5 0.483850             1.913663              1.793909  8.674627                 0.0                 1.0                 0.0
+       23 West Ham United             Sunderland corners_total   9.5 0.375010             2.469070              1.481505  8.674627                 0.0                 1.0                 0.0
+       23 West Ham United             Sunderland corners_total  10.5 0.280775             3.297751              1.287394  8.674627                 0.0                 1.0                 0.0
+       23 West Ham United             Sunderland corners_total  11.5 0.202835             4.564922              1.161524  8.674627                 0.0                 1.0                 0.0
+       23 West Ham United             Sunderland corners_total  12.5 0.140805             6.575945              1.077667  8.674627                 0.0                 1.0                 0.0
+       23 West Ham United             Sunderland           1X2   NaN      NaN                  NaN                   NaN       NaN                 NaN                 NaN                 NaN
+       23         Burnley              Tottenham corners_total   7.5 0.813730             1.137879              4.970881 11.321057                 1.0                 0.0                 0.0
+       23         Burnley              Tottenham corners_total   8.5 0.731740             1.265376              3.451599 11.321057                 1.0                 0.0                 0.0
+       23         Burnley              Tottenham corners_total   9.5 0.638790             1.449500              2.563401 11.321057                 1.0                 0.0                 0.0
+       23         Burnley              Tottenham corners_total  10.5 0.542620             1.706398              2.024413 11.321057                 1.0                 0.0                 0.0
+       23         Burnley              Tottenham corners_total  11.5 0.448885             2.062724              1.680096 11.321057                 1.0                 0.0                 0.0
+       23         Burnley              Tottenham corners_total  12.5 0.360710             2.566954              1.448366 11.321057                 1.0                 0.0                 0.0
+       23         Burnley              Tottenham           1X2   NaN      NaN                  NaN                   NaN       NaN                 NaN                 NaN                 NaN
+       23          Fulham Brighton & Hove Albion corners_total   7.5 0.684240             1.353218              2.932372  9.420343                 0.0                 0.0                 0.0
+       23          Fulham Brighton & Hove Albion corners_total   8.5 0.570975             1.621658              2.158210  9.420343                 0.0                 0.0                 0.0
+       23          Fulham Brighton & Hove Albion corners_total   9.5 0.459195             2.016411              1.712125  9.420343                 0.0                 0.0                 0.0
+       23          Fulham Brighton & Hove Albion corners_total  10.5 0.354300             2.613395              1.433988  9.420343                 0.0                 0.0                 0.0
+       23          Fulham Brighton & Hove Albion corners_total  11.5 0.261965             3.534541              1.254583  9.420343                 0.0                 0.0                 0.0
+       23          Fulham Brighton & Hove Albion corners_total  12.5 0.186865             4.955053              1.138711  9.420343                 0.0                 0.0                 0.0

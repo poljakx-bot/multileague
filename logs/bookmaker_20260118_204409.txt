@@ -1,0 +1,48 @@
+2026-01-18 20:44:09,257 | INFO | Logging started
+2026-01-18 20:44:09,257 | INFO | Log file: c:\Code\Fudbal_Modeli\logs\bookmaker_20260118_204409.txt
+2026-01-18 20:44:09,259 | INFO | [ACTIVE] england-premier-league-matches-2025-to-2026-stats.csv
+2026-01-18 20:44:09,297 | INFO | [TRAIN] utakmica: 970 | fajlova: 3
+2026-01-18 20:44:09,298 | INFO | [WEIGHTS] {'2023-to-2024': 0.4, '2024-to-2025': 0.7, '2025-to-2026': 1.0}
+2026-01-18 20:44:09,298 | INFO | [REG] L2_BASE=0.1500 | L2_HOMEADV=0.0200 | alpha=[0.05, 0.18]
+2026-01-18 20:44:09,299 | INFO | [LOW SAMPLE] threshold=50.0 | uncertainty_boost=0.40
+2026-01-18 20:44:09,300 | INFO | [BOOKMAKER] margin=0.0800
+2026-01-18 20:44:09,801 | INFO | [PL MODEL] alpha=0.0758 | beta0=1.4969 | home_adv=0.1604 | mu_pl_league_match=8.936
+2026-01-18 20:44:10,094 | INFO | [CHAMP] file=england-championship-matches-2024-to-2025-stats.csv | mu_ch_league_match=10.093 | champ_model_ok=True
+2026-01-18 20:44:10,094 | INFO | [PROMOTED CHECK] Burnley        in PL=True | champ_att=True | champ_def=True | matches_w=36.20 | w=0.453
+2026-01-18 20:44:10,094 | INFO | [PROMOTED CHECK] Leeds United   in PL=True | champ_att=True | champ_def=True | matches_w=21.00 | w=0.588
+2026-01-18 20:44:10,095 | INFO | [PROMOTED CHECK] Sunderland     in PL=True | champ_att=True | champ_def=True | matches_w=21.00 | w=0.588
+2026-01-18 20:44:10,095 | WARNING | [LOW SAMPLE TEAMS] 8
+2026-01-18 20:44:10,095 | WARNING |   - Luton Town             matches_w=15.20
+2026-01-18 20:44:10,096 | WARNING |   - Sheffield United       matches_w=15.20
+2026-01-18 20:44:10,096 | WARNING |   - Leeds United           matches_w=21.00
+2026-01-18 20:44:10,096 | WARNING |   - Sunderland             matches_w=21.00
+2026-01-18 20:44:10,096 | WARNING |   - Ipswich Town           matches_w=26.60
+2026-01-18 20:44:10,096 | WARNING |   - Leicester              matches_w=26.60
+2026-01-18 20:44:10,097 | WARNING |   - Southampton            matches_w=26.60
+2026-01-18 20:44:10,097 | WARNING |   - Burnley                matches_w=36.20
+2026-01-18 20:44:10,101 | INFO | [OK] team params: c:\Code\Fudbal_Modeli\data\team_negbin_params_corners.csv
+2026-01-18 20:44:10,120 | INFO | [OK] sanity check: c:\Code\Fudbal_Modeli\data\team_negbin_params_sanity_check.csv
+2026-01-18 20:44:10,131 | INFO | [NEXT GW] 22
+2026-01-18 20:44:10,718 | INFO | [OK] Spremljeno: c:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_1x2_gw22_margin_0.080.csv  (70 redova)
+2026-01-18 20:44:10,725 | INFO | Pregled rezultata (prvih 20 redova):
+ gameweek         home_team       away_team        market  line   p_over  bookmaker_odds_over  bookmaker_odds_under  mu_match  promoted_home_flag  promoted_away_flag  promoted_pair_flag
+       22 Manchester United Manchester City corners_total   7.5 0.746745             1.239949              3.656101 10.153506                 0.0                 0.0                 0.0
+       22 Manchester United Manchester City corners_total   8.5 0.645120             1.435277              2.609124 10.153506                 0.0                 0.0                 0.0
+       22 Manchester United Manchester City corners_total   9.5 0.537025             1.724177              1.999948 10.153506                 0.0                 0.0                 0.0
+       22 Manchester United Manchester City corners_total  10.5 0.432545             2.140646              1.631717 10.153506                 0.0                 0.0                 0.0
+       22 Manchester United Manchester City corners_total  11.5 0.335590             2.759099              1.393606 10.153506                 0.0                 0.0                 0.0
+       22 Manchester United Manchester City corners_total  12.5 0.251970             3.674747              1.237819 10.153506                 0.0                 0.0                 0.0
+       22 Manchester United Manchester City           1X2   NaN      NaN                  NaN                   NaN       NaN                 NaN                 NaN                 NaN
+       22      Leeds United          Fulham corners_total   7.5 0.603060             1.535379              2.332660  8.744469                 1.0                 0.0                 0.0
+       22      Leeds United          Fulham corners_total   8.5 0.489840             1.890262              1.814972  8.744469                 1.0                 0.0                 0.0
+       22      Leeds United          Fulham corners_total   9.5 0.383320             2.415543              1.501469  8.744469                 1.0                 0.0                 0.0
+       22      Leeds United          Fulham corners_total  10.5 0.289365             3.199855              1.302956  8.744469                 1.0                 0.0                 0.0
+       22      Leeds United          Fulham corners_total  11.5 0.211565             4.376555              1.174385  8.744469                 1.0                 0.0                 0.0
+       22      Leeds United          Fulham corners_total  12.5 0.148150             6.249922              1.086959  8.744469                 1.0                 0.0                 0.0
+       22      Leeds United          Fulham           1X2   NaN      NaN                  NaN                   NaN       NaN                 NaN                 NaN                 NaN
+       22           Chelsea       Brentford corners_total   7.5 0.787710             1.175465              4.361609 10.714845                 0.0                 0.0                 0.0
+       22           Chelsea       Brentford corners_total   8.5 0.695245             1.331798              3.038263 10.714845                 0.0                 0.0                 0.0
+       22           Chelsea       Brentford corners_total   9.5 0.593490             1.560137              2.277745 10.714845                 0.0                 0.0                 0.0
+       22           Chelsea       Brentford corners_total  10.5 0.489300             1.892348              1.813053 10.714845                 0.0                 0.0                 0.0
+       22           Chelsea       Brentford corners_total  11.5 0.389905             2.374748              1.517675 10.714845                 0.0                 0.0                 0.0
+       22           Chelsea       Brentford corners_total  12.5 0.301625             3.069792              1.325829 10.714845                 0.0                 0.0                 0.0

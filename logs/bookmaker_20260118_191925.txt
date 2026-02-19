@@ -1,0 +1,25 @@
+2026-01-18 19:19:25,726 | INFO | Logging started
+2026-01-18 19:19:25,726 | INFO | Log file: c:\Code\Fudbal_Modeli\logs\bookmaker_20260118_191925.txt
+2026-01-18 19:19:25,728 | INFO | [ACTIVE] england-premier-league-matches-2025-to-2026-stats.csv
+2026-01-18 19:19:25,794 | INFO | [TRAIN] utakmica: 930 | fajlova: 3
+2026-01-18 19:19:25,794 | INFO | [WEIGHTS] {'2023-to-2024': 0.4, '2024-to-2025': 0.7, '2025-to-2026': 1.0}
+2026-01-18 19:19:25,794 | INFO | [REG] L2_BASE=0.1500 | L2_HOMEADV=0.0200 | alpha=[0.05, 0.18]
+2026-01-18 19:19:25,795 | INFO | [LOW SAMPLE] threshold=50.0 | uncertainty_boost=0.40
+2026-01-18 19:19:25,795 | INFO | [BOOKMAKER] margin=0.0500
+2026-01-18 19:19:26,658 | INFO | [PL MODEL] alpha=0.0773 | beta0=1.4849 | home_adv=0.1686 | mu_pl_league_match=8.829
+2026-01-18 19:19:27,200 | INFO | [CHAMP] file=england-championship-matches-2024-to-2025-stats.csv | mu_ch_league_match=10.093 | champ_model_ok=True
+2026-01-18 19:19:27,201 | INFO | [PROMOTED CHECK] Burnley        in PL=True | champ_att=True | champ_def=True | matches_w=32.20 | w=0.482
+2026-01-18 19:19:27,201 | INFO | [PROMOTED CHECK] Leeds United   in PL=True | champ_att=True | champ_def=True | matches_w=17.00 | w=0.638
+2026-01-18 19:19:27,202 | INFO | [PROMOTED CHECK] Sunderland     in PL=True | champ_att=True | champ_def=True | matches_w=17.00 | w=0.638
+2026-01-18 19:19:27,203 | WARNING | [LOW SAMPLE TEAMS] 8
+2026-01-18 19:19:27,203 | WARNING |   - Luton Town             matches_w=15.20
+2026-01-18 19:19:27,203 | WARNING |   - Sheffield United       matches_w=15.20
+2026-01-18 19:19:27,204 | WARNING |   - Leeds United           matches_w=17.00
+2026-01-18 19:19:27,204 | WARNING |   - Sunderland             matches_w=17.00
+2026-01-18 19:19:27,204 | WARNING |   - Ipswich Town           matches_w=26.60
+2026-01-18 19:19:27,204 | WARNING |   - Leicester              matches_w=26.60
+2026-01-18 19:19:27,205 | WARNING |   - Southampton            matches_w=26.60
+2026-01-18 19:19:27,205 | WARNING |   - Burnley                matches_w=32.20
+2026-01-18 19:19:27,214 | INFO | [OK] team params: c:\Code\Fudbal_Modeli\data\team_negbin_params_corners.csv
+2026-01-18 19:19:27,244 | INFO | [OK] sanity check: c:\Code\Fudbal_Modeli\data\team_negbin_params_sanity_check.csv
+2026-01-18 19:19:27,257 | INFO | [NEXT GW] 18

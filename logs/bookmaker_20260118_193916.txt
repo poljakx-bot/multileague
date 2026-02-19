@@ -1,0 +1,48 @@
+2026-01-18 19:39:16,523 | INFO | Logging started
+2026-01-18 19:39:16,523 | INFO | Log file: c:\Code\Fudbal_Modeli\logs\bookmaker_20260118_193916.txt
+2026-01-18 19:39:16,525 | INFO | [ACTIVE] england-premier-league-matches-2025-to-2026-stats.csv
+2026-01-18 19:39:16,565 | INFO | [TRAIN] utakmica: 930 | fajlova: 3
+2026-01-18 19:39:16,566 | INFO | [WEIGHTS] {'2023-to-2024': 0.4, '2024-to-2025': 0.7, '2025-to-2026': 1.0}
+2026-01-18 19:39:16,566 | INFO | [REG] L2_BASE=0.1500 | L2_HOMEADV=0.0200 | alpha=[0.05, 0.18]
+2026-01-18 19:39:16,566 | INFO | [LOW SAMPLE] threshold=50.0 | uncertainty_boost=0.40
+2026-01-18 19:39:16,567 | INFO | [BOOKMAKER] margin=0.0500
+2026-01-18 19:39:17,109 | INFO | [PL MODEL] alpha=0.0773 | beta0=1.4849 | home_adv=0.1686 | mu_pl_league_match=8.829
+2026-01-18 19:39:17,481 | INFO | [CHAMP] file=england-championship-matches-2024-to-2025-stats.csv | mu_ch_league_match=10.093 | champ_model_ok=True
+2026-01-18 19:39:17,482 | INFO | [PROMOTED CHECK] Burnley        in PL=True | champ_att=True | champ_def=True | matches_w=32.20 | w=0.482
+2026-01-18 19:39:17,482 | INFO | [PROMOTED CHECK] Leeds United   in PL=True | champ_att=True | champ_def=True | matches_w=17.00 | w=0.638
+2026-01-18 19:39:17,482 | INFO | [PROMOTED CHECK] Sunderland     in PL=True | champ_att=True | champ_def=True | matches_w=17.00 | w=0.638
+2026-01-18 19:39:17,482 | WARNING | [LOW SAMPLE TEAMS] 8
+2026-01-18 19:39:17,483 | WARNING |   - Luton Town             matches_w=15.20
+2026-01-18 19:39:17,483 | WARNING |   - Sheffield United       matches_w=15.20
+2026-01-18 19:39:17,483 | WARNING |   - Leeds United           matches_w=17.00
+2026-01-18 19:39:17,483 | WARNING |   - Sunderland             matches_w=17.00
+2026-01-18 19:39:17,483 | WARNING |   - Ipswich Town           matches_w=26.60
+2026-01-18 19:39:17,484 | WARNING |   - Leicester              matches_w=26.60
+2026-01-18 19:39:17,484 | WARNING |   - Southampton            matches_w=26.60
+2026-01-18 19:39:17,484 | WARNING |   - Burnley                matches_w=32.20
+2026-01-18 19:39:17,487 | INFO | [OK] team params: c:\Code\Fudbal_Modeli\data\team_negbin_params_corners.csv
+2026-01-18 19:39:17,506 | INFO | [OK] sanity check: c:\Code\Fudbal_Modeli\data\team_negbin_params_sanity_check.csv
+2026-01-18 19:39:17,516 | INFO | [NEXT GW] 18
+2026-01-18 19:39:18,158 | INFO | [OK] Spremljeno: c:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_1x2_gw18_margin_0.050.csv  (70 redova)
+2026-01-18 19:39:18,164 | INFO | Pregled rezultata (prvih 20 redova):
+ gameweek         home_team       away_team        market  line   p_over  bookmaker_odds_over  bookmaker_odds_under  mu_match  promoted_home_flag  promoted_away_flag  promoted_pair_flag
+       18 Manchester United       Newcastle corners_total   7.5 0.836270             1.138844              5.816777 11.465987                 0.0                 0.0                 0.0
+       18 Manchester United       Newcastle corners_total   8.5 0.755165             1.261156              3.889889 11.465987                 0.0                 0.0                 0.0
+       18 Manchester United       Newcastle corners_total   9.5 0.663910             1.434503              2.833708 11.465987                 0.0                 0.0                 0.0
+       18 Manchester United       Newcastle corners_total  10.5 0.564550             1.686974              2.187119 11.465987                 0.0                 0.0                 0.0
+       18 Manchester United       Newcastle corners_total  11.5 0.465780             2.044701              1.782750 11.465987                 0.0                 0.0                 0.0
+       18 Manchester United       Newcastle corners_total  12.5 0.373800             2.547836              1.520889 11.465987                 0.0                 0.0                 0.0
+       18 Manchester United       Newcastle           1X2   NaN      NaN                  NaN                   NaN       NaN                 NaN                 NaN                 NaN
+       18 Nottingham Forest Manchester City corners_total   7.5 0.740115             1.286801              3.664625 10.106765                 0.0                 0.0                 0.0
+       18 Nottingham Forest Manchester City corners_total   8.5 0.638435             1.491743              2.634052 10.106765                 0.0                 0.0                 0.0
+       18 Nottingham Forest Manchester City corners_total   9.5 0.531410             1.792177              2.032440 10.106765                 0.0                 0.0                 0.0
+       18 Nottingham Forest Manchester City corners_total  10.5 0.427135             2.229695              1.662488 10.106765                 0.0                 0.0                 0.0
+       18 Nottingham Forest Manchester City corners_total  11.5 0.332195             2.866933              1.426136 10.106765                 0.0                 0.0                 0.0
+       18 Nottingham Forest Manchester City corners_total  12.5 0.249770             3.813032              1.269452 10.106765                 0.0                 0.0                 0.0
+       18 Nottingham Forest Manchester City           1X2   NaN      NaN                  NaN                   NaN       NaN                 NaN                 NaN                 NaN
+       18           Burnley         Everton corners_total   7.5 0.724175             1.315125              3.452845 10.059904                 1.0                 0.0                 0.0
+       18           Burnley         Everton corners_total   8.5 0.625660             1.522202              2.544160 10.059904                 1.0                 0.0                 0.0
+       18           Burnley         Everton corners_total   9.5 0.521940             1.824694              1.992179 10.059904                 1.0                 0.0                 0.0
+       18           Burnley         Everton corners_total  10.5 0.422450             2.254423              1.649002 10.059904                 1.0                 0.0                 0.0
+       18           Burnley         Everton corners_total  11.5 0.330680             2.880068              1.422908 10.059904                 1.0                 0.0                 0.0
+       18           Burnley         Everton corners_total  12.5 0.249385             3.818918              1.268801 10.059904                 1.0                 0.0                 0.0

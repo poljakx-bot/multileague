@@ -1,0 +1,30 @@
+2026-02-12 21:53:12,299 | INFO | Logging started
+2026-02-12 21:53:12,300 | INFO | Log file: c:\Code\Fudbal_Modeli\logs\bookmaker_20260212_215312.txt
+2026-02-12 21:53:12,306 | INFO | [ACTIVE] england-premier-league-matches-2025-to-2026-stats.csv
+2026-02-12 21:53:12,437 | INFO | [TRAIN] utakmica: 1010 | fajlova: 3
+2026-02-12 21:53:12,438 | INFO | [WEIGHTS] {'2023-to-2024': 0, '2024-to-2025': 0.9, '2025-to-2026': 1.0}
+2026-02-12 21:53:12,438 | INFO | [REG] L2_BASE=0.2000 | L2_HOMEADV=0.0200 | alpha=[0.0010, 0.0300]
+2026-02-12 21:53:12,438 | INFO | [LOW SAMPLE] threshold=15.0 | uncertainty_boost=0.10
+2026-02-12 21:53:12,439 | INFO | [BOOKMAKER] margin=0.0800 | over_price_boost=0.0000
+2026-02-12 21:53:12,439 | INFO | [ALPHA] alpha_squeeze=0.7000 (1.0=off)
+2026-02-12 21:53:14,601 | INFO | [PL MODEL] alpha=0.030000 | beta0=1.4958 | home_adv=0.1122 | mu_pl_league_match=8.926
+2026-02-12 21:53:17,127 | INFO | [GOALS MODEL] fitted_rows=1010 | calib_temp=2.9000
+2026-02-12 21:53:17,190 | INFO | [RELEG PRIOR] prev=england-premier-league-matches-2024-to-2025-stats.csv | curr=england-premier-league-matches-2025-to-2026-stats.csv
+2026-02-12 21:53:17,190 | INFO | [RELEG PRIOR] relegated(bottom3)=Southampton, Ipswich Town, Leicester
+2026-02-12 21:53:17,191 | INFO | [RELEG PRIOR] promoted=Burnley, Leeds United, Sunderland
+2026-02-12 21:53:17,191 | INFO | [RELEG PRIOR] factors: att=0.7484 def=1.2387
+2026-02-12 21:53:17,191 | INFO | [PROMOTED CHECK] Burnley        in PL=True | matches_w=13.61 | w=0.423
+2026-02-12 21:53:17,192 | INFO | [PROMOTED CHECK] Leeds United   in PL=True | matches_w=13.61 | w=0.423
+2026-02-12 21:53:17,192 | INFO | [PROMOTED CHECK] Sunderland     in PL=True | matches_w=13.61 | w=0.423
+2026-02-12 21:53:17,192 | WARNING | [LOW SAMPLE TEAMS] 8
+2026-02-12 21:53:17,192 | WARNING |   - Luton Town             matches_w=0.00
+2026-02-12 21:53:17,193 | WARNING |   - Sheffield United       matches_w=0.00
+2026-02-12 21:53:17,193 | WARNING |   - Southampton            matches_w=3.30
+2026-02-12 21:53:17,193 | WARNING |   - Ipswich Town           matches_w=3.32
+2026-02-12 21:53:17,193 | WARNING |   - Leicester              matches_w=3.34
+2026-02-12 21:53:17,194 | WARNING |   - Burnley                matches_w=13.61
+2026-02-12 21:53:17,194 | WARNING |   - Leeds United           matches_w=13.61
+2026-02-12 21:53:17,194 | WARNING |   - Sunderland             matches_w=13.61
+2026-02-12 21:53:17,202 | INFO | [OK] team params: c:\Code\Fudbal_Modeli\data\team_negbin_params_corners.csv
+2026-02-12 21:53:17,234 | INFO | [OK] sanity check: c:\Code\Fudbal_Modeli\data\team_negbin_params_sanity_check.csv
+2026-02-12 21:53:17,250 | INFO | [NEXT GW] 26

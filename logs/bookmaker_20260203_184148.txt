@@ -1,0 +1,66 @@
+2026-02-03 18:41:48,913 | INFO | Logging started
+2026-02-03 18:41:48,914 | INFO | Log file: c:\Code\Fudbal_Modeli\logs\bookmaker_20260203_184148.txt
+2026-02-03 18:41:48,918 | INFO | [ACTIVE] england-premier-league-matches-2025-to-2026-stats.csv
+2026-02-03 18:41:49,029 | INFO | [TRAIN] utakmica: 1000 | fajlova: 3
+2026-02-03 18:41:49,029 | INFO | [WEIGHTS] {'2023-to-2024': 0.4, '2024-to-2025': 0.7, '2025-to-2026': 1.0}
+2026-02-03 18:41:49,029 | INFO | [REG] L2_BASE=0.1500 | L2_HOMEADV=0.0200 | alpha=[0.05, 0.18]
+2026-02-03 18:41:49,030 | INFO | [LOW SAMPLE] threshold=50.0 | uncertainty_boost=0.40
+2026-02-03 18:41:49,031 | INFO | [BOOKMAKER] margin=0.0800 | over_price_boost=0.0000
+2026-02-03 18:41:51,076 | INFO | [PL MODEL] alpha=0.0635 | beta0=1.5110 | home_adv=0.1165 | mu_pl_league_match=9.062
+2026-02-03 18:41:54,920 | INFO | [GOALS MODEL] fitted_rows=1000 | calib_temp=2.9000
+2026-02-03 18:41:55,968 | INFO | [CHAMP] file=england-championship-matches-2024-to-2025-stats.csv | mu_ch_league_match=10.093 | champ_model_ok=True
+2026-02-03 18:41:55,969 | INFO | [PROMOTED CHECK] Burnley        in PL=True | champ_att=True | champ_def=True | matches_w=19.13 | w=0.611
+2026-02-03 18:41:55,969 | INFO | [PROMOTED CHECK] Leeds United   in PL=True | champ_att=True | champ_def=True | matches_w=17.56 | w=0.631
+2026-02-03 18:41:55,970 | INFO | [PROMOTED CHECK] Sunderland     in PL=True | champ_att=True | champ_def=True | matches_w=17.56 | w=0.631
+2026-02-03 18:41:55,970 | WARNING | [LOW SAMPLE TEAMS] 25
+2026-02-03 18:41:55,971 | WARNING |   - Luton Town             matches_w=1.56
+2026-02-03 18:41:55,971 | WARNING |   - Sheffield United       matches_w=1.56
+2026-02-03 18:41:55,972 | WARNING |   - Southampton            matches_w=8.06
+2026-02-03 18:41:55,972 | WARNING |   - Ipswich Town           matches_w=8.10
+2026-02-03 18:41:55,973 | WARNING |   - Leicester              matches_w=8.15
+2026-02-03 18:41:55,973 | WARNING |   - Leeds United           matches_w=17.56
+2026-02-03 18:41:55,974 | WARNING |   - Sunderland             matches_w=17.56
+2026-02-03 18:41:55,974 | WARNING |   - Burnley                matches_w=19.13
+2026-02-03 18:41:55,975 | WARNING |   - Brighton & Hove Albion matches_w=27.13
+2026-02-03 18:41:55,975 | WARNING |   - West Ham United        matches_w=27.15
+2026-02-03 18:41:55,976 | WARNING |   - Tottenham              matches_w=27.17
+2026-02-03 18:41:55,976 | WARNING |   - Arsenal                matches_w=27.18
+2026-02-03 18:41:55,977 | WARNING |   - Crystal Palace         matches_w=27.20
+2026-02-03 18:41:55,978 | WARNING |   - Manchester United      matches_w=27.21
+2026-02-03 18:41:55,978 | WARNING |   - Nottingham Forest      matches_w=27.21
+2026-02-03 18:41:55,979 | WARNING |   - Chelsea                matches_w=27.22
+2026-02-03 18:41:55,979 | WARNING |   - Everton                matches_w=27.22
+2026-02-03 18:41:55,980 | WARNING |   - Newcastle              matches_w=27.23
+2026-02-03 18:41:55,980 | WARNING |   - Liverpool              matches_w=27.24
+2026-02-03 18:41:55,981 | WARNING |   - Wolverhampton Wanderers matches_w=27.26
+2026-02-03 18:41:55,981 | WARNING |   - Bournemouth            matches_w=27.27
+2026-02-03 18:41:55,982 | WARNING |   - Aston Villa            matches_w=27.27
+2026-02-03 18:41:55,982 | WARNING |   - Brentford              matches_w=27.32
+2026-02-03 18:41:55,983 | WARNING |   - Manchester City        matches_w=27.32
+2026-02-03 18:41:55,983 | WARNING |   - Fulham                 matches_w=27.32
+2026-02-03 18:41:56,003 | INFO | [OK] team params: c:\Code\Fudbal_Modeli\data\team_negbin_params_corners.csv
+2026-02-03 18:41:56,068 | INFO | [OK] sanity check: c:\Code\Fudbal_Modeli\data\team_negbin_params_sanity_check.csv
+2026-02-03 18:41:56,097 | INFO | [NEXT GW] 25
+2026-02-03 18:41:57,168 | INFO | [OK] Spremljeno: c:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_1x2_gw25_margin_0.080.csv  (70 redova)
+2026-02-03 18:41:57,188 | INFO | Pregled rezultata (prvih 20 redova):
+ gameweek               home_team         away_team        market  line   p_over  bookmaker_odds_over  bookmaker_odds_under  mu_match  promoted_home_flag  promoted_away_flag  promoted_pair_flag
+       25            Leeds United Nottingham Forest corners_total   7.5 0.727515             1.272724              3.398080 10.002142                 1.0                 0.0                 0.0
+       25            Leeds United Nottingham Forest corners_total   8.5 0.625105             1.481233              2.469827 10.002142                 1.0                 0.0                 0.0
+       25            Leeds United Nottingham Forest corners_total   9.5 0.519140             1.783577              1.925562 10.002142                 1.0                 0.0                 0.0
+       25            Leeds United Nottingham Forest corners_total  10.5 0.416585             2.222658              1.587079 10.002142                 1.0                 0.0                 0.0
+       25            Leeds United Nottingham Forest corners_total  11.5 0.322805             2.868375              1.367296 10.002142                 1.0                 0.0                 0.0
+       25            Leeds United Nottingham Forest corners_total  12.5 0.241610             3.832316              1.220910 10.002142                 1.0                 0.0                 0.0
+       25            Leeds United Nottingham Forest           1X2   NaN      NaN                  NaN                   NaN       NaN                 NaN                 NaN                 NaN
+       25       Manchester United         Tottenham corners_total   7.5 0.754720             1.226847              3.774975 10.294744                 0.0                 0.0                 0.0
+       25       Manchester United         Tottenham corners_total   8.5 0.655825             1.411849              2.690277 10.294744                 0.0                 0.0                 0.0
+       25       Manchester United         Tottenham corners_total   9.5 0.550075             1.683272              2.057956 10.294744                 0.0                 0.0                 0.0
+       25       Manchester United         Tottenham corners_total  10.5 0.445930             2.076393              1.671135 10.294744                 0.0                 0.0                 0.0
+       25       Manchester United         Tottenham corners_total  11.5 0.349670             2.647999              1.423779 10.294744                 0.0                 0.0                 0.0
+       25       Manchester United         Tottenham corners_total  12.5 0.264740             3.497492              1.259318 10.294744                 0.0                 0.0                 0.0
+       25       Manchester United         Tottenham           1X2   NaN      NaN                  NaN                   NaN       NaN                 NaN                 NaN                 NaN
+       25 Wolverhampton Wanderers           Chelsea corners_total   7.5 0.707880             1.308027              3.169677  9.759075                 0.0                 0.0                 0.0
+       25 Wolverhampton Wanderers           Chelsea corners_total   8.5 0.601050             1.540514              2.320907  9.759075                 0.0                 0.0                 0.0
+       25 Wolverhampton Wanderers           Chelsea corners_total   9.5 0.494445             1.872657              1.831504  9.759075                 0.0                 0.0                 0.0
+       25 Wolverhampton Wanderers           Chelsea corners_total  10.5 0.390790             2.369370              1.519880  9.759075                 0.0                 0.0                 0.0
+       25 Wolverhampton Wanderers           Chelsea corners_total  11.5 0.299685             3.089664              1.322156  9.759075                 0.0                 0.0                 0.0
+       25 Wolverhampton Wanderers           Chelsea corners_total  12.5 0.222705             4.157634              1.191216  9.759075                 0.0                 0.0                 0.0

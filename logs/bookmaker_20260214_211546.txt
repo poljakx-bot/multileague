@@ -1,0 +1,51 @@
+2026-02-14 21:15:46,131 | INFO | Logging started
+2026-02-14 21:15:46,132 | INFO | Log file: c:\Code\Fudbal_Modeli\logs\bookmaker_20260214_211546.txt
+2026-02-14 21:15:46,135 | INFO | [ACTIVE] england-premier-league-matches-2025-to-2026-stats.csv
+2026-02-14 21:15:46,215 | INFO | [TRAIN] utakmica: 1010 | fajlova: 3
+2026-02-14 21:15:46,216 | INFO | [WEIGHTS] {'2023-to-2024': 0, '2024-to-2025': 1.0, '2025-to-2026': 1.0}
+2026-02-14 21:15:46,216 | INFO | [REG] L2_BASE=0.0600 | L2_HOMEADV=0.0100 | alpha=[0.0010, 0.0300]
+2026-02-14 21:15:46,216 | INFO | [LOW SAMPLE] threshold=15.0 | uncertainty_boost=0.00
+2026-02-14 21:15:46,217 | INFO | [BOOKMAKER] margin=0.0800 | over_price_boost=0.0000
+2026-02-14 21:15:46,217 | INFO | [ALPHA] alpha_squeeze=0.8500 (1.0=off)
+2026-02-14 21:15:47,909 | INFO | [MU_LEAGUE OVERRIDE] model_implied=9.474 -> emp_active=9.840
+2026-02-14 21:15:47,910 | INFO | [PL MODEL] alpha=0.030000 | beta0=1.4968 | home_adv=0.1139 | mu_pl_league_match=9.840
+2026-02-14 21:15:51,594 | INFO | [GOALS MODEL] fitted_rows=1010 | calib_temp=2.9000
+2026-02-14 21:15:51,677 | INFO | [RELEG PRIOR] prev=england-premier-league-matches-2024-to-2025-stats.csv | curr=england-premier-league-matches-2025-to-2026-stats.csv
+2026-02-14 21:15:51,677 | INFO | [RELEG PRIOR] relegated(bottom3)=Southampton, Ipswich Town, Leicester
+2026-02-14 21:15:51,678 | INFO | [RELEG PRIOR] promoted=Burnley, Leeds United, Sunderland
+2026-02-14 21:15:51,678 | INFO | [RELEG PRIOR] factors: att=0.7484 def=1.2387
+2026-02-14 21:15:51,678 | INFO | [PROMOTED CHECK] Burnley        in PL=True | matches_w=18.49 | w=0.351
+2026-02-14 21:15:51,678 | INFO | [PROMOTED CHECK] Leeds United   in PL=True | matches_w=18.49 | w=0.351
+2026-02-14 21:15:51,679 | INFO | [PROMOTED CHECK] Sunderland     in PL=True | matches_w=18.49 | w=0.351
+2026-02-14 21:15:51,679 | WARNING | [LOW SAMPLE TEAMS] 5
+2026-02-14 21:15:51,679 | WARNING |   - Luton Town             matches_w=0.00
+2026-02-14 21:15:51,680 | WARNING |   - Sheffield United       matches_w=0.00
+2026-02-14 21:15:51,680 | WARNING |   - Southampton            matches_w=12.25
+2026-02-14 21:15:51,680 | WARNING |   - Ipswich Town           matches_w=12.30
+2026-02-14 21:15:51,680 | WARNING |   - Leicester              matches_w=12.37
+2026-02-14 21:15:51,689 | INFO | [OK] team params: c:\Code\Fudbal_Modeli\data\team_negbin_params_corners.csv
+2026-02-14 21:15:51,917 | INFO | [OK] sanity check: c:\Code\Fudbal_Modeli\data\team_negbin_params_sanity_check.csv
+2026-02-14 21:15:51,942 | INFO | [NEXT GW] 26
+2026-02-14 21:15:53,941 | INFO | [OK] Spremljeno: c:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_1x2_gw26_margin_0.080.csv  (60 redova)
+2026-02-14 21:15:53,953 | INFO | Pregled rezultata (prvih 20 redova):
+ gameweek       home_team         away_team        market  line   p_over  bookmaker_odds_over  bookmaker_odds_under  mu_match  alpha_base  alpha_squeeze  alpha_used  promoted_home_flag  promoted_away_flag  promoted_pair_flag
+       26       Tottenham         Newcastle corners_total   7.5 0.907153             1.020694              9.972635 12.305295        0.03           0.85      0.0255                   0                   0                   0
+       26       Tottenham         Newcastle corners_total   8.5 0.844887             1.095917              5.969351 12.305295        0.03           0.85      0.0255                   0                   0                   0
+       26       Tottenham         Newcastle corners_total   9.5 0.763510             1.212723              3.915286 12.305295        0.03           0.85      0.0255                   0                   0                   0
+       26       Tottenham         Newcastle corners_total  10.5 0.667110             1.387966              2.781477 12.305295        0.03           0.85      0.0255                   0                   0                   0
+       26       Tottenham         Newcastle corners_total  11.5 0.561783             1.648190              2.112941 12.305295        0.03           0.85      0.0255                   0                   0                   0
+       26       Tottenham         Newcastle corners_total  12.5 0.455297             2.033676              1.699872 12.305295        0.03           0.85      0.0255                   0                   0                   0
+       26         Chelsea      Leeds United corners_total   7.5 0.689275             1.343333              2.979889  9.236520        0.03           0.85      0.0255                   0                   1                   0
+       26         Chelsea      Leeds United corners_total   8.5 0.566327             1.634968              2.135077  9.236520        0.03           0.85      0.0255                   0                   1                   0
+       26         Chelsea      Leeds United corners_total   9.5 0.441892             2.095369              1.659043  9.236520        0.03           0.85      0.0255                   0                   1                   0
+       26         Chelsea      Leeds United corners_total  10.5 0.327827             2.824437              1.377511  9.236520        0.03           0.85      0.0255                   0                   1                   0
+       26         Chelsea      Leeds United corners_total  11.5 0.230102             4.023986              1.202660  9.236520        0.03           0.85      0.0255                   0                   1                   0
+       26         Chelsea      Leeds United corners_total  12.5 0.154433             5.995635              1.095036  9.236520        0.03           0.85      0.0255                   0                   1                   0
+       26         Everton       Bournemouth corners_total   7.5 0.870902             1.063181              7.172253 11.542541        0.03           0.85      0.0255                   0                   0                   0
+       26         Everton       Bournemouth corners_total   8.5 0.793042             1.167563              4.473973 11.542541        0.03           0.85      0.0255                   0                   0                   0
+       26         Everton       Bournemouth corners_total   9.5 0.697582             1.327337              3.061739 11.542541        0.03           0.85      0.0255                   0                   0                   0
+       26         Everton       Bournemouth corners_total  10.5 0.590803             1.567232              2.262790 11.542541        0.03           0.85      0.0255                   0                   0                   0
+       26         Everton       Bournemouth corners_total  11.5 0.480832             1.925676              1.783479 11.542541        0.03           0.85      0.0255                   0                   0                   0
+       26         Everton       Bournemouth corners_total  12.5 0.374800             2.470453              1.481008 11.542541        0.03           0.85      0.0255                   0                   0                   0
+       26 West Ham United Manchester United corners_total   7.5 0.824300             1.123288              5.269926 10.776571        0.03           0.85      0.0255                   0                   0                   0
+       26 West Ham United Manchester United corners_total   8.5 0.730627             1.267304              3.437333 10.776571        0.03           0.85      0.0255                   0                   0                   0

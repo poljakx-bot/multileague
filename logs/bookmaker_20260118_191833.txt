@@ -1,0 +1,2 @@
+2026-01-18 19:18:33,424 | INFO | Logging started
+2026-01-18 19:18:33,424 | INFO | Log file: c:\Code\Fudbal_Modeli\logs\bookmaker_20260118_191833.txt

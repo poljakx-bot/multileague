@@ -1,0 +1,10 @@
+2026-02-19 23:00:21,343 | INFO | Logging started → c:\Code\Fudbal_Modeli\logs\bookmaker_L1_20260219_230021.txt
+2026-02-19 23:00:21,343 | INFO | Applied preset L1: EMP_BIAS_K=30.0, EMP_BIAS_MAX_FACTOR=1.25, SOFT_ANCHOR_W_BASE=0.060, SOFT_ANCHOR_W_UPWARD=0.140, CHAOS_MAX=0.030
+2026-02-19 23:00:21,379 | INFO | [L1] Loaded 612 rows from 2 files
+2026-02-19 23:00:21,394 | INFO | [L1] Training on completed matches...
+2026-02-19 23:02:50,233 | INFO | Emp-bias: mean factor=0.999, min=0.981, max=1.022
+2026-02-19 23:02:50,236 | INFO | [L1] μ league (active played mean) = 9.414
+2026-02-19 23:02:50,238 | INFO | [L1] Last played GW = 22 → Pricing NEXT GW = 23
+2026-02-19 23:02:50,245 | INFO | [L1] [OK] teams table: c:\Code\Fudbal_Modeli\data\L1_model_teams_table_gw23.csv
+2026-02-19 23:02:50,246 | INFO | [L1] [OK] sanity table: c:\Code\Fudbal_Modeli\data\L1_model_sanity_table_gw23.csv
+2026-02-19 23:02:50,440 | INFO | [L1] Saved → c:\Code\Fudbal_Modeli\data\L1_bookmaker_odds_corners_gw23_margin0.080.csv (54 rows)

@@ -1,0 +1,4 @@
+2026-02-15 19:09:39,371 | INFO | Logging started → c:\Code\Fudbal_Modeli\logs\bookmaker_20260215_190939.txt
+2026-02-15 19:09:39,430 | INFO | Trening: 1010 utakmica
+2026-02-15 19:09:41,285 | INFO | μ league = 9.840
+2026-02-15 19:09:42,320 | INFO | Spremljeno → c:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_gw26_margin0.080.csv (60 redova)

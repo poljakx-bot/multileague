@@ -1,0 +1,48 @@
+2026-01-18 20:02:33,724 | INFO | Logging started
+2026-01-18 20:02:33,725 | INFO | Log file: c:\Code\Fudbal_Modeli\logs\bookmaker_20260118_200233.txt
+2026-01-18 20:02:33,726 | INFO | [ACTIVE] england-premier-league-matches-2025-to-2026-stats.csv
+2026-01-18 20:02:33,774 | INFO | [TRAIN] utakmica: 920 | fajlova: 3
+2026-01-18 20:02:33,774 | INFO | [WEIGHTS] {'2023-to-2024': 0.4, '2024-to-2025': 0.7, '2025-to-2026': 1.0}
+2026-01-18 20:02:33,774 | INFO | [REG] L2_BASE=0.1500 | L2_HOMEADV=0.0200 | alpha=[0.05, 0.18]
+2026-01-18 20:02:33,775 | INFO | [LOW SAMPLE] threshold=50.0 | uncertainty_boost=0.40
+2026-01-18 20:02:33,775 | INFO | [BOOKMAKER] margin=0.0800
+2026-01-18 20:02:34,419 | INFO | [PL MODEL] alpha=0.0771 | beta0=1.4822 | home_adv=0.1711 | mu_pl_league_match=8.805
+2026-01-18 20:02:34,751 | INFO | [CHAMP] file=england-championship-matches-2024-to-2025-stats.csv | mu_ch_league_match=10.093 | champ_model_ok=True
+2026-01-18 20:02:34,751 | INFO | [PROMOTED CHECK] Burnley        in PL=True | champ_att=True | champ_def=True | matches_w=31.20 | w=0.490
+2026-01-18 20:02:34,751 | INFO | [PROMOTED CHECK] Leeds United   in PL=True | champ_att=True | champ_def=True | matches_w=16.00 | w=0.652
+2026-01-18 20:02:34,752 | INFO | [PROMOTED CHECK] Sunderland     in PL=True | champ_att=True | champ_def=True | matches_w=16.00 | w=0.652
+2026-01-18 20:02:34,752 | WARNING | [LOW SAMPLE TEAMS] 8
+2026-01-18 20:02:34,752 | WARNING |   - Luton Town             matches_w=15.20
+2026-01-18 20:02:34,752 | WARNING |   - Sheffield United       matches_w=15.20
+2026-01-18 20:02:34,753 | WARNING |   - Leeds United           matches_w=16.00
+2026-01-18 20:02:34,753 | WARNING |   - Sunderland             matches_w=16.00
+2026-01-18 20:02:34,753 | WARNING |   - Ipswich Town           matches_w=26.60
+2026-01-18 20:02:34,753 | WARNING |   - Leicester              matches_w=26.60
+2026-01-18 20:02:34,754 | WARNING |   - Southampton            matches_w=26.60
+2026-01-18 20:02:34,754 | WARNING |   - Burnley                matches_w=31.20
+2026-01-18 20:02:34,757 | INFO | [OK] team params: c:\Code\Fudbal_Modeli\data\team_negbin_params_corners.csv
+2026-01-18 20:02:34,779 | INFO | [OK] sanity check: c:\Code\Fudbal_Modeli\data\team_negbin_params_sanity_check.csv
+2026-01-18 20:02:34,790 | INFO | [NEXT GW] 17
+2026-01-18 20:02:35,454 | INFO | [OK] Spremljeno: c:\Code\Fudbal_Modeli\data\bookmaker_odds_corners_1x2_gw17_margin_0.080.csv  (70 redova)
+2026-01-18 20:02:35,462 | INFO | Pregled rezultata (prvih 20 redova):
+ gameweek               home_team away_team        market  line   p_over  bookmaker_odds_over  bookmaker_odds_under  mu_match  promoted_home_flag  promoted_away_flag  promoted_pair_flag
+       17               Newcastle   Chelsea corners_total   7.5 0.779480             1.187876              4.198830 10.565679                 0.0                 0.0                 0.0
+       17               Newcastle   Chelsea corners_total   8.5 0.683545             1.354594              2.925932 10.565679                 0.0                 0.0                 0.0
+       17               Newcastle   Chelsea corners_total   9.5 0.580215             1.595832              2.205715 10.565679                 0.0                 0.0                 0.0
+       17               Newcastle   Chelsea corners_total  10.5 0.475140             1.948743              1.764139 10.565679                 0.0                 0.0                 0.0
+       17               Newcastle   Chelsea corners_total  11.5 0.375615             2.465093              1.482941 10.565679                 0.0                 0.0                 0.0
+       17               Newcastle   Chelsea corners_total  12.5 0.287355             3.222237              1.299281 10.565679                 0.0                 0.0                 0.0
+       17               Newcastle   Chelsea           1X2   NaN      NaN                  NaN                   NaN       NaN                 NaN                 NaN                 NaN
+       17 Wolverhampton Wanderers Brentford corners_total   7.5 0.701925             1.319124              3.106352  9.606424                 0.0                 0.0                 0.0
+       17 Wolverhampton Wanderers Brentford corners_total   8.5 0.591695             1.564870              2.267731  9.606424                 0.0                 0.0                 0.0
+       17 Wolverhampton Wanderers Brentford corners_total   9.5 0.479440             1.931265              1.778711  9.606424                 0.0                 0.0                 0.0
+       17 Wolverhampton Wanderers Brentford corners_total  10.5 0.373995             2.475771              1.479103  9.606424                 0.0                 0.0                 0.0
+       17 Wolverhampton Wanderers Brentford corners_total  11.5 0.280810             3.297340              1.287457  9.606424                 0.0                 0.0                 0.0
+       17 Wolverhampton Wanderers Brentford corners_total  12.5 0.204080             4.537073              1.163340  9.606424                 0.0                 0.0                 0.0
+       17 Wolverhampton Wanderers Brentford           1X2   NaN      NaN                  NaN                   NaN       NaN                 NaN                 NaN                 NaN
+       17             Bournemouth   Burnley corners_total   7.5 0.817650             1.132423              5.077740 11.496655                 0.0                 1.0                 0.0
+       17             Bournemouth   Burnley corners_total   8.5 0.738615             1.253598              3.542384 11.496655                 0.0                 1.0                 0.0
+       17             Bournemouth   Burnley corners_total   9.5 0.650280             1.423888              2.647621 11.496655                 0.0                 1.0                 0.0
+       17             Bournemouth   Burnley corners_total  10.5 0.556565             1.663644              2.088076 11.496655                 0.0                 1.0                 0.0
+       17             Bournemouth   Burnley corners_total  11.5 0.464315             1.994176              1.728490 11.496655                 0.0                 1.0                 0.0
+       17             Bournemouth   Burnley corners_total  12.5 0.377295             2.454117              1.486942 11.496655                 0.0                 1.0                 0.0
