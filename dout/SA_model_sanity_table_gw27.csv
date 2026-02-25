@@ -1,10 +1,10 @@
 metric,value
-beta0,1.389110280881757
-home_adv,0.23008424300915542
-alpha,0.03
+beta0,1.3853643699537173
+home_adv,0.23018411743288847
+alpha,0.029999999845287513
 alpha_squeeze_used,0.78
-mu_league,8.84
-emp_total_corners_mean,9.13015873015873
+mu_league,8.834615384615384
+emp_total_corners_mean,9.1234375
 USE_EMP_BIAS_CORRECTION,1.0
 EMP_BIAS_K,36.0
 EMP_BIAS_MAX_FACTOR,1.25
