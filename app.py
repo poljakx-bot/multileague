@@ -159,8 +159,14 @@ with tab1:
     if not odds_files:
         st.info("Nema odds CSV fajlova za izabranu ligu. Klikni **Run model**.")
     else:
-        # pick latest by mtime
+        # pick latest by mtime, but if a specific GW was requested prefer that file
         default = 0
+        if target_gw is not None:
+            needle = f"_gw{int(target_gw)}_"
+            for i, p in enumerate(odds_files):
+                if needle in os.path.basename(p):
+                    default = i
+                    break
         sel = st.selectbox(
             "Odaberi odds fajl",
             odds_files,
@@ -205,10 +211,17 @@ with tab2:
     if not odds_files:
         st.info("Nema odds CSV fajlova. Prvo pokreni **Run model**.")
     else:
+        default2 = 0
+        if target_gw is not None:
+            needle = f"_gw{int(target_gw)}_"
+            for i, p in enumerate(odds_files):
+                if needle in os.path.basename(p):
+                    default2 = i
+                    break
         sel = st.selectbox(
             "Odaberi odds fajl (iz kog tražimo meč)",
             odds_files,
-            index=0,
+            index=default2,
             format_func=lambda p: os.path.basename(p),
             key="lookup_odds_file",
         )

@@ -1360,9 +1360,14 @@ def main(
         raise ValueError("No completed matches found in active season.")
 
     last_played_gw = int(gw_played.max())
-    current_gw = last_played_gw + 1
 
-    log.info("[%s] Last played GW = %d → Pricing NEXT GW = %d", league, last_played_gw, current_gw)
+    if target_gw is not None:
+        current_gw = int(target_gw)
+        log.info("[%s] Last played GW = %d → Pricing SPECIFIC GW = %d", league, last_played_gw, current_gw)
+    else:
+        current_gw = last_played_gw + 1
+        log.info("[%s] Last played GW = %d → Pricing NEXT GW = %d", league, last_played_gw, current_gw)
+
 
 
     # Export tables
