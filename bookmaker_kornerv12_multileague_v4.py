@@ -1284,6 +1284,7 @@ def main(
     over_price_boost: float = 0.01,
     alpha_squeeze: Optional[float] = None,
     n_sims: int = 200_000,
+    target_gw: Optional[int] = None,
 ):
     if league not in LEAGUES:
         raise ValueError(f"Unknown league '{league}'. Choose one of: {LEAGUES}")

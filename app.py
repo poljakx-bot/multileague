@@ -15,6 +15,7 @@ sys.path.append(os.getcwd())
 
 # ====================== MODEL IMPORT ======================
 MODEL_MODULE_CANDIDATES = [
+    "bookmaker_kornerv12_multileague_v4_targetgw",
     "bookmaker_kornerv12_multileague_v4",
     # fallbacks if you rename the engine later
     "bookmaker_kornerv12_multileague",
@@ -120,6 +121,12 @@ with st.sidebar:
         except Exception:
             st.warning("alpha_squeeze mora biti broj ili prazno.")
             alpha_squeeze = None
+    st.divider()
+    st.subheader("Gameweek")
+    gw_mode = st.selectbox("Režim", ["AUTO (next GW)", "Specific GW"], index=0)
+    target_gw = None
+    if gw_mode == "Specific GW":
+        target_gw = st.number_input("Target GW", min_value=1, max_value=80, value=28, step=1)
 
     st.divider()
     run_btn = st.button("▶ Run model", type="primary")
@@ -134,6 +141,7 @@ if run_btn:
                 over_price_boost=float(over_price_boost),
                 alpha_squeeze=alpha_squeeze,
                 n_sims=int(n_sims),
+                target_gw=(int(target_gw) if target_gw is not None else None),
             )
             st.success(f"✅ Završeno. Fajlovi su u: {OUT_DIR}")
         except Exception as e:
