@@ -29,7 +29,7 @@ PRESETS_PATH = os.path.join(BASE_DIR, "presets.json")
 # Built-in fallback defaults (used if presets.json missing)
 DEFAULT_PRESETS = {
     "EPL": {
-        "emp_bias_k": 35.0,
+        "emp_bias_k": 35000.0,
         "emp_bias_max_factor": 1.25,
         "soft_anchor_w_base": 0.07,
         "soft_anchor_w_upward": 0.14,
@@ -41,7 +41,7 @@ DEFAULT_PRESETS = {
         "over_price_boost": 0.01,
     },
     "LL": {
-        "emp_bias_k": 45.0,
+        "emp_bias_k": 45000.0,
         "emp_bias_max_factor": 1.20,
         "soft_anchor_w_base": 0.10,
         "soft_anchor_w_upward": 0.20,
@@ -53,7 +53,7 @@ DEFAULT_PRESETS = {
         "over_price_boost": 0.01,
     },
     "SA": {
-        "emp_bias_k": 35.0,
+        "emp_bias_k": 35000.0,
         "emp_bias_max_factor": 1.25,
         "soft_anchor_w_base": 0.07,
         "soft_anchor_w_upward": 0.14,
@@ -65,7 +65,7 @@ DEFAULT_PRESETS = {
         "over_price_boost": 0.01,
     },
     "BL": {
-        "emp_bias_k": 35.0,
+        "emp_bias_k": 35000.0,
         "emp_bias_max_factor": 1.25,
         "soft_anchor_w_base": 0.07,
         "soft_anchor_w_upward": 0.14,
@@ -77,7 +77,7 @@ DEFAULT_PRESETS = {
         "over_price_boost": 0.01,
     },
     "L1": {
-        "emp_bias_k": 35.0,
+        "emp_bias_k": 35000.0,
         "emp_bias_max_factor": 1.25,
         "soft_anchor_w_base": 0.07,
         "soft_anchor_w_upward": 0.14,
